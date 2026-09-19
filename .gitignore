@@ -1,0 +1,38 @@
+# Python environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# YOLO training outputs
+runs/
+*.pt
+*.onnx
+*.weights
+
+# Large dataset images
+train/images/
+valid/images/
+test/images/
+
+# Dataset labels
+train/labels/
+valid/labels/
+test/labels/
+
+# Exported dataset
+export/
+
+# Compressed datasets
+*.zip
+
+# Traffic videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# IDE
+.vscode/
+.idea/
