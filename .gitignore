@@ -36,3 +36,11 @@ export/
 # IDE
 .vscode/
 .idea/
+
+# Ignore complete original datasets
+/train/
+/valid/
+/test/
+
+# Ignore generated ambulance-only dataset
+/ambulance_dataset/
